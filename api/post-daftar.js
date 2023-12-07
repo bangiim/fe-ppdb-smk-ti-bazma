@@ -139,10 +139,14 @@ async function postData() {
         if (response.ok) {
             const data = await response.json();
             // Handle the response from the API
-            console.log(data);
+            // console.log(data);
 
-            // Show success modal
-            $('#successModal').modal('show');
+            // Show SweetAlert2 success message
+            Swal.fire({
+                icon: 'success',
+                title: 'Success',
+                text: 'Form submitted successfully!',
+            });
 
             // Clear form data from localStorage after a successful API request
             clearFormDataFromLocalStorage();

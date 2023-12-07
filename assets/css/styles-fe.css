@@ -19,10 +19,3 @@
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
-
-.footer {
-  /* padding: 20px; */
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
