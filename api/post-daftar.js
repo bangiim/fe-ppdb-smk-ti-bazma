@@ -145,20 +145,17 @@ async function postData() {
             Swal.fire({
                 icon: 'success',
                 title: 'Success',
-                text: 'Data berhasil terkirim, terima kasih',
+                text: 'Form submitted successfully!',
+            }).then((result) => {
+                // Check if the user clicked "OK"
+                if (result.isConfirmed || result.dismiss === Swal.DismissReason.backdrop) {
+                    // Clear form data from localStorage after a successful API request
+                    clearFormDataFromLocalStorage();
+        
+                    // Reload the page
+                    window.location.reload();
+                }
             });
-
-            // Clear form data from localStorage after a successful API request
-            clearFormDataFromLocalStorage();
-
-            // Get the form element by its ID and reset it
-            const myForm = document.getElementById('formRegis'); // Replace 'myForm' with the actual ID of your form
-            if (myForm) {
-                myForm.reset();
-            }
-
-            // Reload the page
-            window.location.reload();
         } else {
             // Handle non-successful response
             console.error('Error:', response.message);
