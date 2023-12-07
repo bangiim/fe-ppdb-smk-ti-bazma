@@ -1,0 +1,1 @@
+export const api = 'https://api.ppdb.smktibazma.sch.id/api/v1/public';
