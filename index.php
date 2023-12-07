@@ -1040,7 +1040,6 @@
     <!-- Script Js -->
     <script src="assets/js/plugins/multistep-form.js"></script>
     <!-- Bootstrap JS (you can replace this with your own modal implementation) -->
-    <script src="assets/js/argon-dashboard.js"></script>
     <script src="assets/js/core/bootstrap.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- API Access -->
