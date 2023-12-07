@@ -600,7 +600,7 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Jumlah Tanggungan Dalam Keluarga<i class="text-danger">*</i></label>
-                                                <input class="form-control" type="text" name="jumlah_tanggungan_dalam_keluarga" id="jumlah_tanggungan_dalam_keluarga">
+                                                <input class="form-control" type="number" name="jumlah_tanggungan_dalam_keluarga" id="jumlah_tanggungan_dalam_keluarga">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -632,7 +632,7 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nomor Hp/Whatsapp<i class="text-danger">*</i></label>
-                                                <input class="form-control" type="text" name="no_whatsapp_fasilitator" id="no_whatsapp_fasilitator">
+                                                <input class="form-control" type="number" name="no_whatsapp_fasilitator" id="no_whatsapp_fasilitator">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
