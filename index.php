@@ -46,11 +46,11 @@
                         <h1 class="display-5 fw-bolder text-white mb-2">PPDB SMK TI BAZMA</h1>
                         <h1 class="fw-bolder text-white mb-4">Tahun Pelajaran 2024/2025</h1>
                         <p class="lead text-white-50 mb-4">
-                            Langkah Awal Belajar, Bertambah, dan Berubah di Era Digital
+                            Langkah Awal Belajar, Bertumbuh, dan Berubah di Era Digital
                         </p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#formulir">Daftar</a>
-                            <a class="btn btn-outline-light btn-lg px-4" href="/informasi">Informasi</a>
+                            <!-- <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#formulir">Daftar</a> -->
+                            <a class="btn btn-outline-success btn-lg px-4" href="/informasi">Informasi</a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
     </header>
 
     <!-- Banner section-->
-    <section class="py-5 border-bottom" id="banner">
+    <!-- <section class="py-5 border-bottom" id="banner">
         <div class="container px-5 my-5">
             <div class="row gx-5">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -83,7 +83,7 @@
             </div>
         </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Form section-->
     <section class="bg-light py-5 border-bottom" id="formulir">
@@ -1023,8 +1023,31 @@
         </div>
     </footer>
 
+    <!-- Bootstrap Modal (you can replace this with your own modal implementation) -->
+    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="successModalLabel">Success</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Form submitted successfully!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Script Js -->
     <script src="assets/js/plugins/multistep-form.js"></script>
+    <!-- Bootstrap JS (you can replace this with your own modal implementation) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="assets/js/core/bootstrap.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- API Access -->

@@ -140,6 +140,12 @@ async function postData() {
             const data = await response.json();
             // Handle the response from the API
             console.log(data);
+
+            // Show success modal
+            $('#successModal').modal('show');
+
+            // Clear form data from localStorage after a successful API request
+            clearFormDataFromLocalStorage();
         } else {
             // Handle non-successful response
             console.error('Error:', response.message);

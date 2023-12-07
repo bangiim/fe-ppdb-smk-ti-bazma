@@ -49,10 +49,10 @@
         <!-- Tahapan section-->
         <section class="bg-light py-5 border-bottom">
             <div class="container px-5 my-5">
-                <div class="text-center mb-5">
+                <!-- <div class="text-center mb-5">
                     <h2 class="fw-bolder">Tahapan Seleksi</h2>
                     <p class="lead mb-0">Islamic Boarding School SMK TI BAZMA</p>
-                </div>
+                </div> -->
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-12 mb-5 mb-lg-0">
                         <div class="card mb-5 mb-xl-0">
@@ -77,30 +77,61 @@
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-5">
                                 <p>
-                                Islamic Boarding School SMK TI BAZMA merupakan sekolah unggulan berasrama yang dikelola oleh Yayasan BAZMA dan diperuntukkan bagi peserta didik lulusan SMP/MTs/Sederajat khususnya anak-anak dhuafa berprestasi dari seluruh Indonesia.
+                                    SMK Teknologi Informasi berasrama dengan kualitas bagus tapi gratis?  Emang boleeeh?🤯
                                     <br><br>
-                                    Kami membuka Pendaftaran Peserta Didik Baru (PPDB) Angkatan 4  Tahun Pelajaran 2024/2025.  Disediakan beasiswa hingga 100%.
+                                    Biaya pendidikan bukan lagi hambatan buat kamu yang memiliki minat dan bakat di bidang digital! SMK TI BAZMA membuka peluang dan kesempatan ini untuk kamu! 
                                     <br><br>
-                                    Untuk Kompetensi Keahlian :
-                                    Sistem Informatika, Jaringan dan Aplikasi (SIJA) yang akan ditempuh selama 4 tahun
+                                    𝗗𝗔𝗙𝗧𝗔𝗥 𝗦𝗘𝗚𝗘𝗥𝗔!
+                                    𝗣𝗲𝗻𝗲𝗿𝗶𝗺𝗮𝗮𝗻 𝗣𝗲𝘀𝗲𝗿𝘁𝗮 𝗗𝗶𝗱𝗶𝗸 𝗕𝗮𝗿𝘂 (𝗣𝗣𝗗𝗕) 𝗜𝘀𝗹𝗮𝗺𝗶𝗰 𝗕𝗼𝗮𝗿𝗱𝗶𝗻𝗴 𝗦𝗰𝗵𝗼𝗼𝗹 𝗦𝗠𝗞 𝗧𝗜 𝗕𝗔𝗭𝗠𝗔 𝗧𝗣 𝟮𝟬𝟮𝟰/𝟮𝟬𝟮𝟱
                                     <br><br>
-                                    ⚠️  Persiapkan seluruh dokumen pendukung sebelum mengisi formulir ini.
+                                    SMK TI BAZMA Islamic Boarding School merupakan sekolah vokasi berasrama yang fasilitas maupun operasionalnya didanai dari pengelolaan ZISWAF dan sumber dana sosial kemanusiaan lainnya yang diamanahkan oleh masyarakat.  
                                     <br><br>
+                                    Kami membuka Penerimaan Peserta Didik Baru (PPDB) Angkatan 4 Tahun Pelajaran 2024/2025. Disediakan beasiswa hingga 100%.
+                                    <br><br>
+                                    Kompetensi Keahlian :<br>
+                                    SIJA (Sistem Informatika, Jaringan & Aplikasi) dengan kombinasi kurikulum berbasis asrama yang ditempuh selama 4 tahun (3 tahun pembelajaran di sekolah dan 1 tahun Praktik kerja Lapang).
+                                    <br><br>
+
+                                    📍Persyaratan Calon Siswa :
+                                    <ol>
+                                        <li>Laki-laki Muslim dan mampu membaca Al-Qur'an dengan baik;</li>
+                                        <li>Berasal dari keluarga tidak mampu (dibuktikan dengan SKTM dari Masjid terdekat);</li>
+                                        <li>Lulus jenjang SMP/MTs/Sederajat pada TP 2023 atau 2024;</li>
+                                        <li>Usia maksimal 17 tahun pada tanggal 30 Juni 2024;</li>
+                                        <li>Sehat jasmani dan rohani (tidak buta warna, tidak merokok dan tidak mempunyai penyakit menular);</li>
+                                        <li>Mendapat persetujuan Orangtua/Wali untuk tinggal di asrama selama masa pendidikan;</li>
+                                        <li>Memiliki minat yang tinggi terhadap dunia digital dan teknologi informasi.</li>
+                                    </ol>
+
                                     🔔  Upload Dokumen Pendukung :
                                     <ol>
-                                        <li>Scan Kartu Keluarga;</li>
+                                        <li>Kartu Keluarga;</li>
                                         <li>Pas foto berwarna terbaru;</li>
-                                        <li>Scan SKTM(download format);</li>
-                                        <li>Surat Rekomendasi Kepala Sekolah/Guru (download format);</li>
-                                        <li>Scan BPJS/KIS;</li>
-                                        <li>Foto berwarna rumah yang ditempati (tampak depan, tampak samping, kamar tidur, ruang tamu dan kamar mandi);</li>
-                                        <li>Membuat essay/karangan bebas tentang diri sendiri dan motivasi mendaftar PPDB SMK TI BAZMA dengan tema "Kontribusi saya untuk Masyarakat di era Teknologi";</li>
+                                        <li>SKTM dari Masjid Setempat*;</li>
+                                        <li>Surat rekomendasi Kepala Sekolah/Wali Kelas/Guru SMP*;</li>
+                                        <li>Foto berwarna rumah yang ditempati (tampak depan, tampak samping, kamar tidur, ruang tamu, dapur, dan kamar mandi);</li>
+                                        <li>Membuat essay/karangan bebas tentang “Peran saya sebagai pemuda di Era Digital”;</li>
                                         <li>Input nilai rapor semester 3-5.</li>
                                     </ol>
-                                    Pendaftar yang memiliki kesulitan atau keterbatasan dalam melakukan pendaftaran dapat menghubungi pihak narahubung.
-                                    <br>
+
+                                    ⏳Pengisian formulir dan upload berkas maksimal 31 Januari 2024 (pukul 23.59)
+                                    <br><br>
+                                    <i>
+                                        *Template dokumen dapat di-download pada website<br> 
+                                        **Pendaftar yang mengalami kesulitan atau keterbatasan dalam mengakses formulir online dapat menghubungi narahubung Pak Dzikri : 0812-1593-1522
+                                        <a class="btn btn-success btn-lg px-4 me-sm-3 mt-2" href="https://wa.me/6281215931522" target="_blank">
+                                            <i class="bi bi-whatsapp"></i>&nbsp; WhatsApp
+                                        </a>
+                                    </i>
+                                    <br><br>
+                                    Terima Kasih,<br> 
+                                    TIM SELEKSI PPDB<br>
+                                    SMK TI BAZMA<br>
+                                    _____<br>
+                                    Narahubung :<br>
+                                    WA : 08 1111 4433 9<br>
+                                    IG : @smktibazma<br>
                                 </p>
-                                <a class="btn btn-primary btn-lg px-4 me-sm-3 mt-2" href="/">Daftar</a>
                             </div>
                         </div>
                     </div>
