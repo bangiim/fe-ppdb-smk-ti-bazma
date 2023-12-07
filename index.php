@@ -139,18 +139,21 @@
                                                 <select class="form-control" name="tahun_pelajaran_id" id="select-tahun-pelajaran">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-tahun-pelajaran" class=" mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">NIK<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="nik" id="nik">
+                                                <div id="error-nik" class=" mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">NISN<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="email" name="nisn" id="nisn">
+                                                <div id="error-nisn" class=" mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
