@@ -139,45 +139,49 @@
                                                 <select class="form-control" name="tahun_pelajaran_id" id="select-tahun-pelajaran">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
-                                                <div id="error-tahun-pelajaran" class=" mt-1 text-danger"></div>
+                                                <div id="error-tahun-pelajaran" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">NIK<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="nik" id="nik">
-                                                <div id="error-nik" class=" mt-1 text-danger"></div>
+                                                <div id="error-nik" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">NISN<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="email" name="nisn" id="nisn">
-                                                <div id="error-nisn" class=" mt-1 text-danger"></div>
+                                                <div id="error-nisn" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nama Lengkap<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="nama_lengkap" id="nama_lengkap">
+                                                <div id="error-nama-lengkap" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Tempat Lahir<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="tempat_lahir" id="tempat_lahir">
+                                                <div id="error-tempat-lahir" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Tanggal Lahir<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="date" name="tanggal_lahir" id="tanggal_lahir">
+                                                <div id="error-tanggal-lahir" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Alamat Saat Ini<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="alamat" id="alamat">
+                                                <div id="error-alamat" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -186,36 +190,42 @@
                                                 <select class="form-control" name="provinsi_id" id="select-provinsi">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-provinsi" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Kota/Kabupaten Tempat Tinggal<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="kota_kabupaten" id="kota_kabupaten">
+                                                <div id="error-kota-kabupaten" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">No. Telephone/Hp/Whatsapp<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="no_whatsapp_telp" id="no_whatsapp_telp">
+                                                <div id="error-no-whatsapp-telp" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Akun Media Sosial (instagram/fb/twitter jika ada)<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="sosial_media" id="sosial_media">
+                                                <div id="error-sosial-media" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Asal SMP/MTs/Sederajat<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="smp_derajat">
+                                                <div id="error-smp-derajat" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">NPSN<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="npsn">
+                                                <div id="error-npsn" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -224,12 +234,14 @@
                                                 <select class="form-control" name="tahun_lulus_id" id="select-tahun-lulus">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-tahun-lulus" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Anak ke....dari....bersaudara | <small><i>(Contoh: 2 dari 4)</i></small><i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="anak_ke_sodara" id="anak_ke_sodara">
+                                                <div id="error-anak-ke-sodara" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -238,6 +250,7 @@
                                                 <select class="form-control" name="keadaan_orang_tua_id" id="select-keadaan-ortu">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-keadaan-orang-tua" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -246,6 +259,7 @@
                                                 <select class="form-control" name="status_dalam_keluarga_id" id="select-status-dalam-keluarga">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-status-dalam-keluarga" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -254,6 +268,7 @@
                                                 <select class="form-control" name="tinggal_bersama_status_id" id="select-tinggal-bersama">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-tinggal-bersama-status" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -261,8 +276,8 @@
                                                 <label for="example-text-input" class="form-control-label">Penerima Bantuan Sosial | <small><i>Jika tidak, isi dengan <b>-</b></i></small><i class="text-danger">*</i></label>
                                                 <select class="form-control" name="penerimaan_bantuan_sosial_id" id="select-penerima-bansos">
                                                     <option value="" disabled selected>Pilih</option>
-
                                                 </select>
+                                                <div id="error-penerima-bantuan-sosial" class="mt-1 text-danger"></div>
                                             </div>
                                         </div>
                                     </div>
