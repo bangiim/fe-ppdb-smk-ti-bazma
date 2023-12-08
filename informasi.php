@@ -96,45 +96,44 @@
                                 <br><br>
 
                                 📍Persyaratan Calon Siswa :
-                            <ol>
-                                <li>Laki-laki Muslim dan mampu membaca Al-Qur'an dengan baik;</li>
-                                <li>Berasal dari keluarga tidak mampu (dibuktikan dengan SKTM dari Masjid terdekat);</li>
-                                <li>Lulus jenjang SMP/MTs/Sederajat pada TP 2023 atau 2024;</li>
-                                <li>Usia maksimal 17 tahun pada tanggal 30 Juni 2024;</li>
-                                <li>Sehat jasmani dan rohani (tidak buta warna, tidak merokok dan tidak mempunyai penyakit menular);</li>
-                                <li>Mendapat persetujuan Orangtua/Wali untuk tinggal di asrama selama masa pendidikan;</li>
-                                <li>Memiliki minat yang tinggi terhadap dunia digital dan teknologi informasi.</li>
-                            </ol>
+                                <ol>
+                                    <li>Laki-laki Muslim dan mampu membaca Al-Qur'an dengan baik;</li>
+                                    <li>Berasal dari keluarga tidak mampu (dibuktikan dengan SKTM dari Masjid terdekat);</li>
+                                    <li>Lulus jenjang SMP/MTs/Sederajat pada TP 2023 atau 2024;</li>
+                                    <li>Usia maksimal 17 tahun pada tanggal 30 Juni 2024;</li>
+                                    <li>Sehat jasmani dan rohani (tidak buta warna, tidak merokok dan tidak mempunyai penyakit menular);</li>
+                                    <li>Mendapat persetujuan Orangtua/Wali untuk tinggal di asrama selama masa pendidikan;</li>
+                                    <li>Memiliki minat yang tinggi terhadap dunia digital dan teknologi informasi.</li>
+                                </ol>
 
-                            🔔 Upload Dokumen Pendukung :
-                            <ol>
-                                <li>Kartu Keluarga;</li>
-                                <li>Pas foto berwarna terbaru;</li>
-                                <li>SKTM dari Masjid Setempat*;</li>
-                                <li>Surat rekomendasi Kepala Sekolah/Wali Kelas/Guru SMP*;</li>
-                                <li>Foto berwarna rumah yang ditempati (tampak depan, tampak samping, kamar tidur, ruang tamu, dapur, dan kamar mandi);</li>
-                                <li>Membuat essay/karangan bebas tentang “Peran saya sebagai pemuda di Era Digital”;</li>
-                                <li>Input nilai rapor semester 3-5.</li>
-                            </ol>
+                                🔔 Upload Dokumen Pendukung :
+                                <ol>
+                                    <li>Kartu Keluarga;</li>
+                                    <li>Pas foto berwarna terbaru;</li>
+                                    <li>SKTM dari Masjid Setempat <i><a href="https://drive.google.com/file/d/1YcNhyzV7zS7xfHP8SzxIg0aZS_c14_Uh/view?usp=sharing" target="_blank">(Download Template)</a></i>;</li>
+                                    <li>Surat rekomendasi Kepala Sekolah/Wali Kelas/Guru SMP <i><a href="https://drive.google.com/file/d/1S6cwf5rDzOOWDyyZXEKEWGRFCBrawdtn/view?usp=sharing" target="_blank">(Download Template)</a></i>;</li>
+                                    <li>Foto berwarna rumah yang ditempati (tampak depan, tampak samping, kamar tidur, ruang tamu, dapur, dan kamar mandi);</li>
+                                    <li>Membuat esai/karangan bebas tentang “Peran saya sebagai pemuda di Era Digital” <i><a href="https://drive.google.com/file/d/1FRPRFF3OMk9ckz8obCZJDmXYuLUIu7jU/view?usp=sharing" target="_blank">(Download Ketentuan)</a></i>;</li>
+                                    <li>Input nilai rapor semester 3-5.</li>
+                                </ol>
 
-                            ⏳Pengisian formulir dan upload berkas maksimal 31 Januari 2024 (pukul 23.59)
-                            <br><br>
-                            <i>
-                                *Template dokumen dapat di-download pada website<br>
-                                **Pendaftar yang mengalami kesulitan atau keterbatasan dalam mengakses formulir online dapat menghubungi narahubung Pak Dzikri : 0812-1593-1522
-                                ,<br>
-                                <a class="btn btn-success px-4 me-sm-3 mt-2" href="https://wa.me/6281215931522" target="_blank">
-                                    <i class="bi bi-whatsapp"></i>&nbsp; WhatsApp
-                                </a>
-                            </i>
-                            <br><br>
-                            Terima Kasih,<br>
-                            TIM SELEKSI PPDB<br>
-                            SMK TI BAZMA<br>
-                            _____<br>
-                            Narahubung :<br>
-                            WA : 08 1111 4433 9<br>
-                            IG : @smktibazma<br>
+                                ⏳Pengisian formulir dan upload berkas maksimal 31 Januari 2024 (pukul 23.59)
+                                <br><br>
+                                <i>
+                                    Keterbatasan dalam mengakses formulir online dapat menghubungi narahubung <b>Pak Dzikri</b> : 0812-1593-1522
+                                    <br>
+                                    <a class="btn btn-success px-4 me-sm-3 mt-2" href="https://wa.me/6281215931522" target="_blank">
+                                        <i class="bi bi-whatsapp"></i>&nbsp; WhatsApp
+                                    </a>
+                                </i>
+                                <br><br>
+                                Terima Kasih,<br>
+                                TIM SELEKSI PPDB<br>
+                                SMK TI BAZMA<br>
+                                _____<br>
+                                Narahubung :<br>
+                                WA : 08 1111 4433 9<br>
+                                IG : @smktibazma<br>
                             </p>
                         </div>
                     </div>
