@@ -59,16 +59,19 @@
     </header>
 
     <!-- Banner section-->
-    <!-- <section class="bg-light py-5 border-bottom" id="banner">
+    <section class="bg-light py-5 border-bottom" id="banner">
         <div class="container px-5 my-5 py-5">
             <div class="row gx-5">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/slider-1.png" class="d-block w-100" alt="...">
+                            <img src="img/banner-1.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/slider-2.png" class="d-block w-100" alt="...">
+                            <img src="img/banner-2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/banner-3.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -83,7 +86,7 @@
             </div>
         </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- Form section-->
     <section class="py-6" id="formulir">
@@ -209,7 +212,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Akun Media Sosial (instagram/fb/twitter jika ada)<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Akun Media Sosial (instagram/fb/twitter jika ada)</label>
                                                 <input class="form-control" type="text" name="sosial_media" id="sosial_media">
                                                 <div id="error-sosial-media" class="mt-1 text-danger small-text"></div>
                                             </div>
@@ -273,7 +276,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Penerima Bantuan Sosial | <small><i>Jika tidak, isi dengan <b>-</b></i></small><i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Penerima Bantuan Sosial<i class="text-danger">*</i></label>
                                                 <select class="form-control" name="penerimaan_bantuan_sosial_id" id="select-penerima-bansos">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
@@ -304,18 +307,21 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 3<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_matematika_3" id="rapor_matematika_3">
+                                                <div id="error-rapor-matematika-3" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 4<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_matematika_4" id="rapor_matematika_4">
+                                                <div id="error-rapor-matematika-4" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 5<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_matematika_5" id="rapor_matematika_5">
+                                                <div id="error-rapor-matematika-5" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <p class="text-sm text-uppercase">
@@ -326,18 +332,21 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 3<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_ipa_3" id="rapor_ipa_3">
+                                                <div id="error-rapor-ipa-3" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 4<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_ipa_4" id="rapor_ipa_4">
+                                                <div id="error-rapor-ipa-4" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 5<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_ipa_5" id="rapor_ipa_5">
+                                                <div id="error-rapor-ipa-5" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <p class="text-sm text-uppercase">
@@ -348,18 +357,21 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 3<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_indo_3" id="rapor_indo_3">
+                                                <div id="error-rapor-indo-3" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 4<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_indo_4" id="rapor_indo_4">
+                                                <div id="error-rapor-indo-4" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 5<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_indo_5" id="rapor_indo_5">
+                                                <div id="error-rapor-indo-5" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <p class="text-sm text-uppercase">
@@ -370,18 +382,21 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 3<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_inggris_3" id="rapor_inggris_3">
+                                                <div id="error-rapor-inggris-3" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 4<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_inggris_4" id="rapor_inggris_4">
+                                                <div id="error-rapor-inggris-4" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 5<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_inggris_5" id="rapor_inggris_5">
+                                                <div id="error-rapor-inggris-5" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <p class="text-sm text-uppercase">
@@ -392,31 +407,36 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 3<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_islam_3" id="rapor_islam_3">
+                                                <div id="error-rapor-islam-3" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 4<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_islam_4" id="rapor_islam_4">
+                                                <div id="error-rapor-islam-4" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Semester 5<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="rapor_islam_5" id="rapor_islam_5">
+                                                <div id="error-rapor-islam-5" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <hr class="horizontal dark mb-4 mt-4">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Bahasa Asing yang Dikuasai (Jika Ada)<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Bahasa Asing yang Dikuasai (Jika Ada)</label>
                                                 <input class="form-control" type="text" name="bahasa_asing" id="bahasa_asing">
+                                                <div id="error-bahasa-asing" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Jumlah Hafalan (Juz)<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="jumlah_hafalan_juz" id="jumlah_hafalan_juz">
+                                                <div id="error-jumlah-hafalan-juz" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -424,20 +444,23 @@
                                                 <label for="example-text-input" class="form-control-label">Juz Yang Telah Dihafal<i class="text-danger">*</i></label>
                                                 <br><small><i>(Contoh: Juz 30, Juz 29, dll)</i></small>
                                                 <input class="form-control" type="text" name="hafalan_juz" id="hafalan_juz">
+                                                <div id="error-hafalan-juz" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Riwayat Prestasi Calon Peserta Didik (Jika Ada)<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Riwayat Prestasi Calon Peserta Didik (Jika Ada)</label>
                                                 <br><small><i>format pengisian : Jenis prestasi - tingkat - nama prestasi - tahun - penyelenggara</i></small>
                                                 <input class="form-control" type="text" name="riwayat_prestasi_calon_peserta_didik" id="riwayat_prestasi_calon_peserta_didik">
+                                                <div id="error-riwayat-prestasi" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Riwayat Organisasi Sekolah dan Non-Sekolah (Jika Ada)<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Riwayat Organisasi Sekolah dan Non-Sekolah (Jika Ada)</label>
                                                 <br><small><i>(format pengisian : bidang organisasi - tingkat - nama organisasi - tahun kepengurusan)</i></small>
                                                 <input class="form-control" type="text" name="riwayat_organisasi_sekolah_dan_non_sekolah" id="riwayat_organisasi_sekolah_dan_non_sekolah">
+                                                <div id="error-riwayat-organisasi" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -445,18 +468,21 @@
                                                 <label for="example-text-input" class="form-control-label">Hal-hal Khusus<i class="text-danger">*</i></label>
                                                 <br><small><i>(Keunikan, Passion, Kebiasaan)</i></small>
                                                 <input class="form-control" type="text" name="hal_hal_khusus" id="hal_hal_khusus">
+                                                <div id="error-hal-khusus" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Cita-cita<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="cita_cita" id="cita_cita">
+                                                <div id="error-cita-cita" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Hobi<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="hobi_kegemaran" id="hobi_kegemaran">
+                                                <div id="error-hobi-kegemaran" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -484,6 +510,7 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nama Ayah Kandung<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="nama_ayah_kandung" id="nama_ayah_kandung">
+                                                <div id="error-nama-ayah-kandung" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
@@ -491,28 +518,33 @@
                                                 <select class="form-control" name="pendidikan_terakhir_ayah_id" id="select-pendidikan-ayah">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-pendidikan-terakhir-ayah" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Pekerjaan Ayah Kandung<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="pekerjaan_ayah_kandung" id="pekerjaan_ayah_kandung">
+                                                <div id="error-pekerjaan-ayah-kandung" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Penghasilan Ayah Kandung <i class="text-danger">*</i></label>
                                                 <br><small><i>(Tuliskan rata-rata penghasilan perbulan)</i></small>
                                                 <input class="form-control" type="number" name="penghasilan_pokok_pensiunan_ayah" id="penghasilan_pokok_pensiunan_ayah">
+                                                <div id="error-penghasilan-pokok-ayah" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Pendapatan di luar penghasilan pokok perbulan<i class="text-danger">*</i></label>
                                                 <br><small><i>(tuliskan rata-rata penghasilan perbulan),</i> Jika tidak ada isi dengan (-)</small>
                                                 <input class="form-control" type="text" name="pendapatan_diluar_penghasilan_perbulan_ayah" id="pendapatan_diluar_penghasilan_perbulan_ayah">
+                                                <div id="error-pendapatan-diluar-penghasilan-ayah" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Alamat Domisili Ayah Kandung<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="domisili_ayah_kandung" id="domisili_ayah_kandung">
+                                                <div id="error-domisili-ayah-kandung" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
@@ -568,6 +600,12 @@
                                     <div class="row p-3">
                                         <div class="col-md-12">
                                             <div class="form-group">
+                                                <label for="example-text-input" class="form-control-label">Jumlah Tanggungan Dalam Keluarga<i class="text-danger">*</i></label>
+                                                <input class="form-control" type="number" name="jumlah_tanggungan_dalam_keluarga" id="jumlah_tanggungan_dalam_keluarga">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Harapan Orang Tua<i class="text-danger">*</i></label>
                                                 <textarea class="form-control" name="harapan_orang_tua" id="harapan_orang_tua" cols="30" rows="5"></textarea>
                                             </div>
@@ -575,55 +613,49 @@
                                     </div>
                                     <hr class="horizontal dark mb-4">
                                     <!-- Data Wali -->
-                                    <p class="text-sm text-uppercase">
-                                        Data Wali <i>(Jika ada)</i>
-                                    </p>
                                     <div class="row p-3">
+                                        <p class="text-sm text-uppercase">
+                                            Data Wali <i>(Jika ada)</i>
+                                        </p>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Nama Wali<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Nama Wali</label>
                                                 <input class="form-control" type="text" name="nama_wali" id="nama_wali">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Pekerjaan Wali<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Pekerjaan Wali</label>
                                                 <input class="form-control" type="text" name="pekerjaan_wali" id="pekerjaan_wali">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Penghasilan Wali<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Penghasilan Wali</label>
                                                 <input class="form-control" type="number" name="penghasilan_wali" id="penghasilan_wali">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Alamat Domisili Wali<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Alamat Domisili Wali</label>
                                                 <input class="form-control" type="text" name="alamat_domisili_wali" id="alamat_domisili_wali">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Hubungan dengan Wali<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Hubungan dengan Wali</label>
                                                 <input class="form-control" type="text" name="hubungan_wali" id="hubungan_wali">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Email Wali<i>(Jika ada)</i><i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Email Wali<i>(Jika ada)</i></label>
                                                 <input class="form-control" type="text" name="email_wali" id="email_id">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Jumlah Tanggungan Dalam Keluarga<i class="text-danger">*</i></label>
-                                                <input class="form-control" type="number" name="jumlah_tanggungan_dalam_keluarga" id="jumlah_tanggungan_dalam_keluarga">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Sumber Penghasilan Lain<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Sumber Penghasilan Lain</label>
                                                 <br><small><i>Jika tidak ada isi dengan (-)</i></small>
                                                 <select class="form-control" name="sumber_penghasilan_id" id="select-sumber-penghasilan">
                                                     <option value="" disabled selected>Pilih</option>
@@ -655,7 +687,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Email Fasilitator (Jika Ada)<i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Email Fasilitator (Jika Ada)</label>
                                                 <input class="form-control" type="text" name="email_fasilitator" id="email_fasilitator">
                                             </div>
                                         </div>
@@ -795,7 +827,7 @@
                             <div class="card multisteps-form__panel p-3 border-radius-xl bg-white" data-animation="FadeIn">
                                 <div class="row text-center">
                                     <div class="col-12 mx-auto">
-                                        <h4 class="fw-bolder text-center mt-4">Riwayat Kesehatan Calon Peserta Didi</h4>
+                                        <h4 class="fw-bolder text-center mt-4">Riwayat Kesehatan Calon Peserta Didik</h4>
                                         <hr class="horizontal dark mb-3 mt-3">
                                     </div>
                                 </div>
@@ -865,7 +897,7 @@
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label for="example-text-input" class="form-control-label">Silakan upload scan/foto kartu asuransi kesehatan seperti BPJS atau KIS | <small><i>(Max file 2 MB)</i></small><i class="text-danger">*</i></label>
+                                                <label for="example-text-input" class="form-control-label">Silakan upload scan/foto kartu asuransi kesehatan seperti BPJS atau KIS | <small><i>(Max file 2 MB)</i></small></label>
                                                 <input class="form-control" type="file" name="scan_bpjs_kis" id="scan_bpjs_kis">
                                             </div>
                                         </div>
