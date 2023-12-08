@@ -82,9 +82,9 @@ async function postData() {
             const errorMessageNWT = `<small><i>${errorData.errors.no_whatsapp_telp[0]}</i></small>`;
             errorNoWhatsappTelp.innerHTML = errorMessageNWT;
 
-            const errorSosialMedia = document.getElementById('error-sosial-media');
-            const errorMessageSM = `<small><i>${errorData.errors.sosial_media[0]}</i></small>`;
-            errorSosialMedia.innerHTML = errorMessageSM;
+            // const errorSosialMedia = document.getElementById('error-sosial-media');
+            // const errorMessageSM = `<small><i>${errorData.errors.sosial_media[0]}</i></small>`;
+            // errorSosialMedia.innerHTML = errorMessageSM;
 
             const errorSmpDerajat = document.getElementById('error-smp-derajat');
             const errorMessageSmpD = `<small><i>${errorData.errors.smp_derajat[0]}</i></small>`;
@@ -179,9 +179,9 @@ async function postData() {
             const errorMessageRIslam5 = `<small><i>${errorData.errors.rapor_islam_5[0]}</i></small>`;
             errorRaporIslam5.innerHTML = errorMessageRIslam5;
 
-            const errorBahasaAsing = document.getElementById('error-bahasa-asing');
-            const errorMessageBahasaAsing = `<small><i>${errorData.errors.bahsa_asing[0]}</i></small>`;
-            errorBahasaAsing.innerHTML = errorMessageBahasaAsing;
+            // const errorBahasaAsing = document.getElementById('error-bahasa-asing');
+            // const errorMessageBahasaAsing = `<small><i>${errorData.errors.bahsa_asing[0]}</i></small>`;
+            // errorBahasaAsing.innerHTML = errorMessageBahasaAsing;
 
             const errorJumlahHafalanJuz = document.getElementById('error-jumlah-hafalan-juz');
             const errorMessageJumlahHafalanJuz = `<small><i>${errorData.errors.jumlah_hafalan_juz[0]}</i></small>`;
@@ -191,13 +191,13 @@ async function postData() {
             const errorMessageHafalanJuz = `<small><i>${errorData.errors.hafalan_juz[0]}</i></small>`;
             errorHafalanJuz.innerHTML = errorMessageHafalanJuz;
 
-            const errorRiwayatPrestasi = document.getElementById('error-riwayat-prestasi');
-            const errorMessageRiwayatPrestasi = `<small><i>${errorData.errors.riwayat_prestasi[0]}</i></small>`;
-            errorRiwayatPrestasi.innerHTML = errorMessageRiwayatPrestasi;
+            // const errorRiwayatPrestasi = document.getElementById('error-riwayat-prestasi');
+            // const errorMessageRiwayatPrestasi = `<small><i>${errorData.errors.riwayat_prestasi[0]}</i></small>`;
+            // errorRiwayatPrestasi.innerHTML = errorMessageRiwayatPrestasi;
 
-            const errorRiwayatOrganisasi = document.getElementById('error-riwayat-organisasi');
-            const errorMessageRiwayatOrganisasi = `<small><i>${errorData.errors.riwayat_prestasi[0]}</i></small>`;
-            errorRiwayatOrganisasi.innerHTML = errorMessageRiwayatOrganisasi;
+            // const errorRiwayatOrganisasi = document.getElementById('error-riwayat-organisasi');
+            // const errorMessageRiwayatOrganisasi = `<small><i>${errorData.errors.riwayat_prestasi[0]}</i></small>`;
+            // errorRiwayatOrganisasi.innerHTML = errorMessageRiwayatOrganisasi;
 
             const errorHalKhusus = document.getElementById('error-hal-khusus');
             const errorMessageHalKhusus = `<small><i>${errorData.errors.hal_hal_khusus[0]}</i></small>`;
@@ -212,6 +212,7 @@ async function postData() {
             errorHobiKegemaran.innerHTML = errorMessageHobiKegemaran;
 
             // Orang Tua/Wali
+            // Data Ayah
             const errorNamaAyahKandung = document.getElementById('error-nama-ayah-kandung');
             const errorMessageNamaAyahKandung = `<small><i>${errorData.errors.nama_ayah_kandung[0]}</i></small>`;
             errorNamaAyahKandung.innerHTML = errorMessageNamaAyahKandung;
@@ -224,7 +225,7 @@ async function postData() {
             const errorMessagePekerjaanAyahKandung = `<small><i>${errorData.errors.pekerjaan_ayah_kandung[0]}</i></small>`;
             errorPekerjaanAyahKandung.innerHTML = errorMessagePekerjaanAyahKandung;
 
-            const errorPenghasilanPokokAyah = document.getElementById('error-penghaslan-pokok-ayah');
+            const errorPenghasilanPokokAyah = document.getElementById('error-penghasilan-pokok-ayah');
             const errorMessagePenghasilanPokokAyah = `<small><i>${errorData.errors.penghasilan_pokok_pensiunan_ayah[0]}</i></small>`;
             errorPenghasilanPokokAyah.innerHTML = errorMessagePenghasilanPokokAyah;
 
@@ -235,6 +236,184 @@ async function postData() {
             const errorDomisiliAyahKandung = document.getElementById('error-domisili-ayah-kandung');
             const errorMessageDomisiliAyahKandung = `<small><i>${errorData.errors.pendapatan_diluar_penghasilan_perbulan_ayah[0]}</i></small>`;
             errorDomisiliAyahKandung.innerHTML = errorMessageDomisiliAyahKandung;
+
+            const errorNoWhatsappAyahKandung = document.getElementById('error-no-whatsapp-ayah-kandung');
+            const errorMessageNoWaAyah = `<small><i>${errorData.errors.no_whatsapp_ayah_kandung[0]}</i></small>`;
+            errorNoWhatsappAyahKandung.innerHTML = errorMessageNoWaAyah;
+
+            // Data Ibu
+            const errorNamaIbuKandung = document.getElementById('error-nama-ibu-kandung');
+            const errorMessageNamaIbuKandung = `<small><i>${errorData.errors.nama_ibu_kandung[0]}</i></small>`;
+            errorNamaIbuKandung.innerHTML = errorMessageNamaIbuKandung;
+
+            const errorPendidikanTerakhirIbu = document.getElementById('error-pendidikan-terakhir-ibu');
+            const errorMessagePendidikanTerakhirIbu = `<small><i>${errorData.errors.pendidikan_terakhir_ibu_id[0]}</i></small>`;
+            errorPendidikanTerakhirIbu.innerHTML = errorMessagePendidikanTerakhirIbu;
+            
+            const errorPekerjaanIbuKandung = document.getElementById('error-pekerjaan-ibu-kandung');
+            const errorMessagePekerjaanIbuKandung = `<small><i>${errorData.errors.pekerjaan_ibu_kandung[0]}</i></small>`;
+            errorPekerjaanIbuKandung.innerHTML = errorMessagePekerjaanIbuKandung;
+
+            const errorPenghasilanPokokIbu = document.getElementById('error-penghasilan-pokok-ibu');
+            const errorMessagePenghasilanPokokIbu = `<small><i>${errorData.errors.penghasilan_pokok_pensiunan_ibu[0]}</i></small>`;
+            errorPenghasilanPokokIbu.innerHTML = errorMessagePenghasilanPokokIbu;
+
+            const errorPendapatanDiluarPenghasilanIbu = document.getElementById('error-pendapatan-diluar-penghasilan-ibu');
+            const errorMessagePendapatanDiluarPenghasilanIbu = `<small><i>${errorData.errors.pendapatan_diluar_penghasilan_perbulan_ibu[0]}</i></small>`;
+            errorPendapatanDiluarPenghasilanIbu.innerHTML = errorMessagePendapatanDiluarPenghasilanIbu;
+
+            const errorDomisiliIbuKandung = document.getElementById('error-domisili-ibu-kandung');
+            const errorMessageDomisiliIbuKandung = `<small><i>${errorData.errors.pendapatan_diluar_penghasilan_perbulan_ibu[0]}</i></small>`;
+            errorDomisiliIbuKandung.innerHTML = errorMessageDomisiliIbuKandung;
+
+            const errorNoWhatsappIbuKandung = document.getElementById('error-no-whatsapp-ibu-kandung');
+            const errorMessageNoWaIbu = `<small><i>${errorData.errors.no_whatsapp_ibu_kandung[0]}</i></small>`;
+            errorNoWhatsappIbuKandung.innerHTML = errorMessageNoWaIbu;
+
+            const errorJumlahTanggunganDalamKeluarga = document.getElementById('error-jumlah-tanggungan-dalam-keluarga');
+            const errorMessageJumlahTanggunganDalamKeluarga = `<small><i>${errorData.errors.jumlah_tanggungan_dalam_keluarga[0]}</i></small>`;
+            errorJumlahTanggunganDalamKeluarga.innerHTML = errorMessageJumlahTanggunganDalamKeluarga;
+
+            const errorHarapanOrangTua = document.getElementById('error-harapan-orang-tua');
+            const errorMessageHarapanOrangTua = `<small><i>${errorData.errors.harapan_orang_tua[0]}</i></small>`;
+            errorHarapanOrangTua.innerHTML = errorMessageHarapanOrangTua;
+
+            // Data Kerabat/Fasilitator
+            const errorNamaFasilitator = document.getElementById('error-nama-fasilitator');
+            const errorMessageNamaFasilitator = `<small><i>${errorData.errors.nama_fasilitator[0]}</i></small>`;
+            errorNamaFasilitator.innerHTML = errorMessageNamaFasilitator;
+
+            const errorHubunganFasilitator = document.getElementById('error-hubungan-calon-siswa-fasilitator');
+            const errorMessageHubunganFasilitator = `<small><i>${errorData.errors.hubungan_calon_siswa_fasilitator[0]}</i></small>`;
+            errorHubunganFasilitator.innerHTML = errorMessageHubunganFasilitator;
+            
+            const errorNoWhatsappFasilitator = document.getElementById('error-no-whatsapp-fasilitator');
+            const errorMessageNoWhatsappFasilitator = `<small><i>${errorData.errors.no_whatsapp_fasilitator[0]}</i></small>`;
+            errorNoWhatsappFasilitator.innerHTML = errorMessageNoWhatsappFasilitator;
+
+            const errorInformasiPpdb = document.getElementById('error-informasdi-ppdb');
+            const errorMessageInformasiPpdb = `<small><i>${errorData.errors.informasi_ppdb_id[0]}</i></small>`;
+            errorInformasiPpdb.innerHTML = errorMessageInformasiPpdb;
+
+            const errorSaudaraDiSMK = document.getElementById('error-saudara-di-smk-fasilitator');
+            const errorMessageSaudaraDiSMK = `<small><i>${errorData.errors.saudara_beasiswa_di_smk_fasilitator[0]}</i></small>`;
+            errorSaudaraDiSMK.innerHTML = errorMessageSaudaraDiSMK;
+
+            // Tempat Tinggal
+            const errorStatusKepemilikanRumah = document.getElementById('error-status-kepemilikan-rumah');
+            const errorMessageStatusKepemilikanRumah = `<small><i>${errorData.errors.status_kepemilikan_rumah_id[0]}</i></small>`;
+            errorStatusKepemilikanRumah.innerHTML = errorMessageStatusKepemilikanRumah;
+
+            const errorTahunPerolehan = document.getElementById('error-tahun-perolehan');
+            const errorMessageTahunPerolehan = `<small><i>${errorData.errors.tahun_perolehan_status_kepemilikan[0]}</i></small>`;
+            errorTahunPerolehan.innerHTML = errorMessageTahunPerolehan;
+
+            const errorKualitasRumah = document.getElementById('error-kualitas-rumah');
+            const errorMessageKualitasRumah = `<small><i>${errorData.errors.kualitas_rumah_id[0]}</i></small>`;
+            errorKualitasRumah.innerHTML = errorMessageKualitasRumah;
+
+            const errorLuasTanah = document.getElementById('error-luas-tahun');
+            const errorMessageLuasTanah = `<small><i>${errorData.errors.luas_tanah_id[0]}</i></small>`;
+            errorLuasTanah.innerHTML = errorMessageLuasTanah;
+
+            const errorMandiCuciKakus = document.getElementById('error-mandi-cuci-kakus');
+            const errorMessageMandiCuciKakus = `<small><i>${errorData.errors.mandi_cuci_kakus_id[0]}</i></small>`;
+            errorMandiCuciKakus.innerHTML = errorMessageMandiCuciKakus;
+
+            const errorSumberAir = document.getElementById('error-sumber-air');
+            const errorMessageSumberAir = `<small><i>${errorData.errors.sumber_air_id[0]}</i></small>`;
+            errorSumberAir.innerHTML = errorMessageSumberAir;
+            
+            const errorDayaListrik = document.getElementById('error-daya-listrik');
+            const errorMessageDayaListrik = `<small><i>${errorData.errors.daya_listrik_id[0]}</i></small>`;
+            errorDayaListrik.innerHTML = errorMessageDayaListrik;
+
+            const errorHartaTidakBergerak = document.getElementById('error-harta-tidak-bergerak');
+            const errorMessageHartaTidakBergerak = `<small><i>${errorData.errors.harta_tidak_bergerak_id[0]}</i></small>`;
+            errorHartaTidakBergerak.innerHTML = errorMessageHartaTidakBergerak;
+
+            const errorStatusKepemilikanHarta = document.getElementById('error-status-kepemilikan-harta');
+            const errorMessageStatusKepemilikanHarta = `<small><i>${errorData.errors.status_kepemelikan_htb_id[0]}</i></small>`;
+            errorStatusKepemilikanHarta.innerHTML = errorMessageStatusKepemilikanHarta;
+
+            const errorKepemilikanKendaraan = document.getElementById('error-kepemilikan-kendaraan');
+            const errorMessageKepemilikanKendaraan = `<small><i>${errorData.errors.kepemilikan_kendaraan_id[0]}</i></small>`;
+            errorKepemilikanKendaraan.innerHTML = errorMessageKepemilikanKendaraan;
+
+            const errorStatusKepemilikanKendaraan = document.getElementById('error-status-kepemilikan-kendaraan');
+            const errorMessageStatusKepemilikanKendaraan = `<small><i>${errorData.errors.status_kepemilikan_kendaraan_id[0]}</i></small>`;
+            errorStatusKepemilikanKendaraan.innerHTML = errorMessageStatusKepemilikanKendaraan;
+
+            // Riwayat Kesehatan
+            const errorTinggiBadan = document.getElementById('error-tinggi-badan');
+            const errorMessageTinggiBadan = `<small><i>${errorData.errors.tinggi_badan[0]}</i></small>`;
+            errorTinggiBadan.innerHTML = errorMessageTinggiBadan;
+
+            const errorBeratBadan = document.getElementById('error-berat-badan');
+            const errorMessageBeratBadan = `<small><i>${errorData.errors.berat_badan[0]}</i></small>`;
+            errorBeratBadan.innerHTML = errorMessageBeratBadan;
+
+            const errorGolonganDarah = document.getElementById('error-golongan-darah');
+            const errorMessageGolonganDarah = `<small><i>${errorData.errors.golongan_darah_id[0]}</i></small>`;
+            errorGolonganDarah.innerHTML = errorMessageGolonganDarah;
+
+            const errorPenyakitDiDerita = document.getElementById('error-penyakit-di-derita');
+            const errorMessagePenyakitDiDerita = `<small><i>${errorData.errors.penyakit_di_derita[0]}</i></small>`;
+            errorPenyakitDiDerita.innerHTML = errorMessagePenyakitDiDerita;
+
+            const errorPenyakitMenular = document.getElementById('error-penyakit-menular');
+            const errorMessagePenyakitMenular = `<small><i>${errorData.errors.penyakit_menular[0]}</i></small>`;
+            errorPenyakitMenular.innerHTML = errorMessagePenyakitMenular;
+
+            const errorPerokok = document.getElementById('error-perokok');
+            const errorMessagePerokok = `<small><i>${errorData.errors.perokok[0]}</i></small>`;
+            errorPerokok.innerHTML = errorMessagePerokok;
+
+            const errorButaWarna = document.getElementById('error-buta-warna');
+            const errorMessageButaWarna = `<small><i>${errorData.errors.buta_warna[0]}</i></small>`;
+            errorButaWarna.innerHTML = errorMessageButaWarna;
+
+            const errorAsuransiBpjsKis = document.getElementById('error-asuransi-bpjs-kis');
+            const errorMessageAsuransiBpjsKis = `<small><i>${errorData.errors.asuransi_bpjs_kis[0]}</i></small>`;
+            errorAsuransiBpjsKis.innerHTML = errorMessageAsuransiBpjsKis;
+
+            // Upload Dokumen
+            const errorKartuKeluarga = document.getElementById('error-kartu-keluarga');
+            const errorMessageKartuKeluarga = `<small><i>${errorData.errors.kartu_keluarga[0]}</i></small>`;
+            errorKartuKeluarga.innerHTML = errorMessageKartuKeluarga;
+
+            const errorPasFoto = document.getElementById('error-pas-foto');
+            const errorMessagePasFoto = `<small><i>${errorData.errors.pas_foto[0]}</i></small>`;
+            errorPasFoto.innerHTML = errorMessagePasFoto;
+
+            const errorSktm = document.getElementById('error-sktm');
+            const errorMessageSktm = `<small><i>${errorData.errors.sktm[0]}</i></small>`;
+            errorSktm.innerHTML = errorMessageSktm;
+
+            const errorUploadSuratRekomendasi = document.getElementById('error-upload-surat-rekomendasi');
+            const errorMessageUploadSuratRekomendasi = `<small><i>${errorData.errors.upload_surat_rekomendasi[0]}</i></small>`;
+            errorUploadSuratRekomendasi.innerHTML = errorMessageUploadSuratRekomendasi;
+
+            const errorUploadPdfFotoRumah = document.getElementById('error-upload-pdf-foto-rumah');
+            const errorMessageUploadPdfFotoRumah = `<small><i>${errorData.errors.upload_pdf_foto_rumah[0]}</i></small>`;
+            errorUploadPdfFotoRumah.innerHTML = errorMessageUploadPdfFotoRumah;
+
+            const errorEssayKarangan = document.getElementById('error-essay-karangan');
+            const errorMessageEssayKarangan = `<small><i>${errorData.errors.essay_karangan[0]}</i></small>`;
+            errorEssayKarangan.innerHTML = errorMessageEssayKarangan;
+
+            // Pernyataan
+            const errorRangkaianTes = document.getElementById('error-rangkaian-tes');
+            const errorMessageRangkaianTes = `<small><i>${errorData.errors.rangkaian_tes[0]}</i></small>`;
+            errorRangkaianTes.innerHTML = errorMessageRangkaianTes;
+
+            const errorDokumenJikaPalsu = document.getElementById('error-dokumen-jika-palsu');
+            const errorMessageDokumenJikaPalsu = `<small><i>${errorData.errors.dokumen_jika_palsu[0]}</i></small>`;
+            errorDokumenJikaPalsu.innerHTML = errorMessageDokumenJikaPalsu;
+
+            const errorPelanggaranKeputusan = document.getElementById('error-pelanggaran-keputusan');
+            const errorMessagePelanggaranKeputusan = `<small><i>${errorData.errors.pelanggaran_keputusan[0]}</i></small>`;
+            errorPelanggaranKeputusan.innerHTML = errorMessagePelanggaranKeputusan;
         }
     } catch (error) {
         // Handle errors

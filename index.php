@@ -49,7 +49,7 @@
                             Langkah Awal Belajar, Bertumbuh, dan Berubah di Era Digital
                         </p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                            <!-- <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#formulir">Daftar</a> -->
+                            <a class="btn btn-success btn-lg px-4 me-sm-2" href="#formulir">Daftar</a>
                             <a class="btn btn-outline-success btn-lg px-4" href="/informasi">Informasi</a>
                         </div>
                     </div>
@@ -550,6 +550,7 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nomor Telephone/Hp/Whatsapp Ayah Kandung<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="no_whatsapp_ayah_kandung" id="no_whatsapp_ayah_kandung">
+                                                <div id="error-no-whatsapp-ayah-kandung" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <!-- Data Ibu -->
@@ -560,6 +561,7 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nama Ibu Kandung<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="nama_ibu_kandung" id="nama_ibu_kandung">
+                                                <div id="error-nama-ibu-kandung" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
@@ -567,33 +569,39 @@
                                                 <select class="form-control" name="pendidikan_terakhir_ibu_id" id="select-pendidikan-ibu">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-pendidikan-terakhir-ibu" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Pekerjaan Ibu Kandung<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="pekerjaan_ibu_kandung" id="pekerjaan_ibu_kandung">
+                                                <div id="error-pekerjaan-ibu-kandung" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Penghasilan Ibu Kandung <i class="text-danger">*</i></label>
                                                 <br><small><i>(Tuliskan rata-rata penghasilan perbulan)</i></small>
                                                 <input class="form-control" type="number" name="penghasilan_pokok_pensiunan_ibu" id="penghasilan_pokok_pensiunan_ibu">
+                                                <div id="error-penghasilan-pokok-ibu" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Pendapatan di luar penghasilan pokok perbulan<i class="text-danger">*</i></label>
                                                 <br><small><i>(tuliskan rata-rata penghasilan perbulan),</i> Jika tidak ada isi dengan (-)</small>
                                                 <input class="form-control" type="text" name="pendapatan_diluar_penghasilan_perbulan_ibu" id="pendapatan_diluar_penghasilan_perbulan_ibu">
+                                                <div id="error-pendapatan-diluar-penghasilan-ibu" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Alamat Domisili Ibu Kandung<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="domisili_ibu_kandung" id="domisili_ibu_kandung">
+                                                <div id="error-domisili-ibu-kandung" class="mt-1 text-danger small-text"></div>
                                             </div>
 
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nomor Telephone/Hp/Whatsapp Ibu Kandung<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="no_whatsapp_ibu_kandung" id="no_whatsapp_ibu_kandung">
+                                                <div id="error-no-whatsapp-ibu-kandung" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -602,12 +610,14 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Jumlah Tanggungan Dalam Keluarga<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="jumlah_tanggungan_dalam_keluarga" id="jumlah_tanggungan_dalam_keluarga">
+                                                <div id="error-jumlah-tanggungan-dalam-keluarga" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Harapan Orang Tua<i class="text-danger">*</i></label>
                                                 <textarea class="form-control" name="harapan_orang_tua" id="harapan_orang_tua" cols="30" rows="5"></textarea>
+                                                <div id="error-harapan-orang-tua" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -621,36 +631,42 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nama Wali</label>
                                                 <input class="form-control" type="text" name="nama_wali" id="nama_wali">
+                                                <div id="error-nama-wali" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Pekerjaan Wali</label>
                                                 <input class="form-control" type="text" name="pekerjaan_wali" id="pekerjaan_wali">
+                                                <div id="error-pekerjaan-wali" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Penghasilan Wali</label>
                                                 <input class="form-control" type="number" name="penghasilan_wali" id="penghasilan_wali">
+                                                <div id="error-penghasilan-wali" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Alamat Domisili Wali</label>
                                                 <input class="form-control" type="text" name="alamat_domisili_wali" id="alamat_domisili_wali">
+                                                <div id="error-domisili-wali" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Hubungan dengan Wali</label>
                                                 <input class="form-control" type="text" name="hubungan_wali" id="hubungan_wali">
+                                                <div id="error-hubungan-wali" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Email Wali<i>(Jika ada)</i></label>
                                                 <input class="form-control" type="text" name="email_wali" id="email_id">
+                                                <div id="error-email-wali" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -660,6 +676,7 @@
                                                 <select class="form-control" name="sumber_penghasilan_id" id="select-sumber-penghasilan">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-penghasilan-wali" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <hr class="horizontal dark mb-4">
@@ -671,24 +688,28 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nama<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="nama_fasilitator" id="nama_fasilitator">
+                                                <div id="error-nama-fasilitator" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Hubungan dengan Calon Siswa<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="hubungan_calon_siswa_fasilitator" id="hubungan_calon_siswa_fasilitator">
+                                                <div id="error-hubungan-calon-siswa-fasilitator" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Nomor Hp/Whatsapp<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="no_whatsapp_fasilitator" id="no_whatsapp_fasilitator">
+                                                <div id="error-no-whatsapp-fasilitator" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Email Fasilitator (Jika Ada)</label>
                                                 <input class="form-control" type="text" name="email_fasilitator" id="email_fasilitator">
+                                                <div id="error-email-fasilitator" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -697,6 +718,7 @@
                                                 <select class="form-control" name="informasi_ppdb_id" id="select-informasi-ppdb">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-informasdi-ppdb" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -707,6 +729,7 @@
                                                     <option value="1">Ya</option>
                                                     <option value="0">Tidak</option>
                                                 </select>
+                                                <div id="error-saudara-di-smk-fasilitator" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -734,12 +757,14 @@
                                                 <select class="form-control" name="status_kepemilikan_rumah_id" id="select-kepemilikan-rumah">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-status-kepemilikan-rumah" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Tahun Perolehan<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="tahun_perolehan_status_kepemilikan" id="tahun_perolehan_status_kepemilikan">
+                                                <div id="error-tahun-perolehan" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -748,6 +773,7 @@
                                                 <select class="form-control" name="kualitas_rumah_id" id="select-kualitas-rumah">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-kualitas-rumah" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -756,6 +782,7 @@
                                                 <select class="form-control" name="luas_tanah_id" id="select-luas-tanah">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-luas-tahun" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -764,6 +791,7 @@
                                                 <select class="form-control" name="mandi_cuci_kakus_id" id="select-mandi-cuci-kakus">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-mandi-cuci-kakus" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -772,6 +800,7 @@
                                                 <select class="form-control" name="sumber_air_id" id="select-sumber-air">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-sumber-air" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -780,6 +809,7 @@
                                                 <select class="form-control" name="daya_listrik_id" id="select-daya-listrik">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-daya-listrik" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -788,6 +818,7 @@
                                                 <select class="form-control" name="harta_tidak_bergerak_id" id="select-harta-tidak-bergerak">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-harta-tidak-bergerak" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -796,6 +827,7 @@
                                                 <select class="form-control" name="status_kepemelikan_htb_id" id="select-status-harta-tidak-bergerak">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-status-kepemilikan-harta" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -804,6 +836,7 @@
                                                 <select class="form-control" name="kepemilikan_kendaraan_id" id="select-kepemilikan-kendaraan">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-kepemilikan-kendaraan" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -812,6 +845,7 @@
                                                 <select class="form-control" name="status_kepemilikan_kendaraan_id" id="select-status-kepemilikan-kendaraan">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-status-kepemilikan-kendaraan" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -837,12 +871,14 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Tinggi Badan<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="tinggi_badan" id="tinggi_badan">
+                                                <div id="error-tinggi-badan" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Berat Badan<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="number" name="berat_badan" id="berat_badan">
+                                                <div id="error-berat-badan" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -851,18 +887,21 @@
                                                 <select class="form-control" name="golongan_darah_id" id="select-golongan-darah">
                                                     <option value="" disabled selected>Pilih</option>
                                                 </select>
+                                                <div id="error-golongan-darah" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Penyakit yang pernah diderita/alergi<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="penyakit_di_derita" id="penyakit_di_derita">
+                                                <div id="error-penyakit-di-derita" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Penyakit menular yang pernah diderita<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="text" name="penyakit_menular" id="penyakit_menular">
+                                                <div id="error-penyakit-menular" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -873,6 +912,7 @@
                                                     <option value="1">Ya</option>
                                                     <option value="0">Tidak</option>
                                                 </select>
+                                                <div id="error-perokok" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -883,6 +923,7 @@
                                                     <option value="1">Ya</option>
                                                     <option value="0">Tidak</option>
                                                 </select>
+                                                <div id="error-buta-warna" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
@@ -893,12 +934,14 @@
                                                     <option value="1">Ya</option>
                                                     <option value="0">Tidak</option>
                                                 </select>
+                                                <div id="error-asuransi-bpjs-kis" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Silakan upload scan/foto kartu asuransi kesehatan seperti BPJS atau KIS | <small><i>(Max file 2 MB)</i></small></label>
                                                 <input class="form-control" type="file" name="scan_bpjs_kis" id="scan_bpjs_kis">
+                                                <div id="error-scan-bpjs-kis" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -929,36 +972,42 @@
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Kartu Keluarga (KK)<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="file" name="kartu_keluarga" id="kartu_keluarga">
+                                                <div id="error-kartu-keluarga" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Pas Foto Terbaru (Berwarna)<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="file" name="pas_foto" id="pas_foto">
+                                                <div id="error-pas-foto" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Surat Keterangan Tidak Mampu dari Masjid Terdekat (SKTM)<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="file" name="sktm" id="sktm">
+                                                <div id="error-sktm" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Surat Rekomendasi Kepala Sekolah/Wali Kelas/Guru SMP<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="file" name="upload_surat_rekomendasi" id="upload_surat_rekomendasi">
+                                                <div id="error-upload-surat-rekomendasi" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Upload Foto Berwarna Rumah yang Ditempati (Tampak Depan, Tampak Samping, Kamar Tidur, Ruang Tamu, Dapur, dan Kamar Mandi)<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="file" name="upload_pdf_foto_rumah" id="upload_pdf_foto_rumah">
+                                                <div id="error-upload-pdf-foto-rumah" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="example-text-input" class="form-control-label">Essay/Karangan Bebas Tentang "Peran Saya Sebagai Pemuda di Era Digital"<i class="text-danger">*</i></label>
                                                 <input class="form-control" type="file" name="essay_karangan" id="essay_karangan">
+                                                <div id="error-essay-karangan" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -994,6 +1043,7 @@
                                                     <option value="1">Online</option>
                                                     <option value="0">Offline</option>
                                                 </select>
+                                                <div id="error-rangkaian-tes" class="mt-1 text-danger small-text"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -1020,6 +1070,7 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="1" name="dokumen_jika_palsu" id="fcustomCheck1">
                                                     <label class="custom-control-label" for="customCheck1">YA<i class="text-danger">*</i></label>
+                                                    <div id="error-dokumen-jika-palsu" class="mt-1 text-danger small-text"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1048,6 +1099,7 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="1" name="pelanggaran_keputusan" id="pelanggaran_keputusan">
                                                     <label class="custom-control-label" for="customCheck1">YA<i class="text-danger">*</i></label>
+                                                    <div id="error-pelanggaran-keputusan" class="mt-1 text-danger small-text"></div>
                                                 </div>
                                             </div>
                                         </div>
