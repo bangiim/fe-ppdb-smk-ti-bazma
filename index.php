@@ -3,16 +3,14 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>PPDB SMK TI BAZMA 2024/2025</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="assets/css/styles-fe.css" rel="stylesheet" />
+    <link href="./assets/css/styles-fe.css" rel="stylesheet" />
     <!-- <link id="pagestyle" href="assets/css/argon-dashboard.css" rel="stylesheet" /> -->
     <link href="https://demos.creative-tim.com/test/argon-dashboard-pro/assets/css/argon-dashboard.min.css" rel="stylesheet" type="text/css">
 </head>
@@ -60,18 +58,18 @@
 
     <!-- Banner section-->
     <section class="bg-light py-5 border-bottom" id="banner">
-        <div class="container px-5 my-5 py-5">
+        <div class="container p-5 mt-5">
             <div class="row gx-5">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/banner-1.jpg" class="d-block w-100" alt="...">
+                            <img src="img/banner-1.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/banner-2.jpg" class="d-block w-100" alt="...">
+                            <img src="img/banner-2.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/banner-3.jpg" class="d-block w-100" alt="...">
+                            <img src="img/banner-3.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -90,7 +88,7 @@
 
     <!-- Form section-->
     <section class="py-6" id="formulir">
-        <div class="container px-4 my-4">
+        <div class="container px-4 mt-4">
             <!-- <div class="multisteps-form py-5"> -->
             <div class="text-center mb-3">
                 <h2 class="fw-bolder">Formulir Pendaftaran Peserta Didik Baru</h2>
@@ -149,14 +147,14 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">NIK<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="nik" id="nik">
+                                            <input class="form-control" type="text" name="nik" id="nik" oninput="validateNumericInput(event, this)" minlength="16" maxlength="16">
                                             <div id="error-nik" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">NISN<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="email" name="nisn" id="nisn">
+                                            <input class="form-control" type="text" name="nisn" id="nisn" oninput="validateNumericInput(event, 'nisn')" minlength="10" maxlength="10">
                                             <div id="error-nisn" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -207,7 +205,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">No. Telephone/Hp/Whatsapp<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="no_whatsapp_telp" id="no_whatsapp_telp">
+                                            <input class="form-control" type="text" name="no_whatsapp_telp" id="no_whatsapp_telp" oninput="validateNumericInput(event, 'no_whatsapp_telp')" minlength="10" maxlength="10">
                                             <div id="error-no_whatsapp_telp" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -221,14 +219,14 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Asal SMP/MTs/Sederajat<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="text" name="smp_derajat">
+                                            <input class="form-control" type="text" name="smp_derajat" id="smp_derajat">
                                             <div id="error-smp_derajat" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">NPSN<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="npsn">
+                                            <input class="form-control" type="text" name="npsn" id="npsn" oninput="validateNumericInput(event, 'npsn')" minlength="0" maxlength="10">
                                             <div id="error-npsn" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -314,7 +312,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Semester 4<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="rapor_matematika_4" id="rapor_matematika_4">
+                                            <input class="form-control" type="number" name="rapor_matematika_4" id="rapor_matematika_4" pattern="[0-9]*" min="0" max="100">
                                             <div id="error-rapor_matematika_4" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -550,7 +548,7 @@
 
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Nomor Telephone/Hp/Whatsapp Ayah Kandung<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="no_whatsapp_ayah_kandung" id="no_whatsapp_ayah_kandung">
+                                            <input class="form-control" type="text" name="no_whatsapp_ayah_kandung" id="no_whatsapp_ayah_kandung" oninput="validateNumericInput(event, 'no_whatsapp_ayah_kandung')" minlength="10" maxlength="15">
                                             <div id="error-no_whatsapp_ayah_kandung" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -601,7 +599,7 @@
 
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Nomor Telephone/Hp/Whatsapp Ibu Kandung<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="no_whatsapp_ibu_kandung" id="no_whatsapp_ibu_kandung">
+                                            <input class="form-control" type="text" name="no_whatsapp_ibu_kandung" id="no_whatsapp_ibu_kandung" oninput="validateNumericInput(event, 'no_whatsapp_ibu_kandung')" minlength="10" maxlength="15">
                                             <div id="error-no_whatsapp_ibu_kandung" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -645,7 +643,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Penghasilan Wali</label>
-                                            <input class="form-control" type="number" name="penghasilan_wali" id="penghasilan_wali">
+                                            <input class="form-control" type="number" name="penghasilan_wali" id="penghasilan_wali" oninput="validateNumericInput(event, 'penghasilan_wali')">
                                             <div id="error-penghasilan_wali" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -702,7 +700,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Nomor Hp/Whatsapp<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="no_whatsapp_fasilitator" id="no_whatsapp_fasilitator">
+                                            <input class="form-control" type="text" name="no_whatsapp_fasilitator" id="no_whatsapp_fasilitator" oninput="validateNumericInput(event, 'no_whatsapp_fasilitator')" minlength="10" maxlength="15">
                                             <div id="error-no_whatsapp_fasilitator" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -764,7 +762,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Tahun Perolehan<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="tahun_perolehan_status_kepemilikan" id="tahun_perolehan_status_kepemilikan">
+                                            <input class="form-control" type="text" name="tahun_perolehan_status_kepemilikan" id="tahun_perolehan_status_kepemilikan" oninput="validateNumericInput(event, 'no_whatsapp_fasilitator')">
                                             <div id="error-tahun_perolehan_status_kepemilikan" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -871,14 +869,14 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Tinggi Badan<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="tinggi_badan" id="tinggi_badan">
+                                            <input class="form-control" type="text" name="tinggi_badan" id="tinggi_badan" oninput="validateNumericInput(event, 'tinggi_badan')" min="0" max="250">
                                             <div id="error-tinggi_badan" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="example-text-input" class="form-control-label">Berat Badan<i class="text-danger">*</i></label>
-                                            <input class="form-control" type="number" name="berat_badan" id="berat_badan">
+                                            <input class="form-control" type="text" name="berat_badan" id="berat_badan" oninput="validateNumericInput(event, 'berat_badan')" min="0" max="250">
                                             <div id="error-berat_badan" class="mt-1 text-danger small-text"></div>
                                         </div>
                                     </div>
@@ -974,6 +972,7 @@
                                             <label for="example-text-input" class="form-control-label">Kartu Keluarga (KK)<i class="text-danger">*</i></label>
                                             <input class="form-control" type="file" name="kartu_keluarga" id="kartu_keluarga">
                                             <div id="error-kartu_keluarga" class="mt-1 text-danger small-text"></div>
+
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -1039,7 +1038,7 @@
                                             <p for="example-text-input" class="mb-4">
                                                 Saya bersedia mengikuti rangkaian tes yang diujikan, secara <b>online</b> <i>(mempersiapkan secara mandiri device/alat dan kuota internet/jaringan)</i> dan/atau secara <b>offline</b> di SMK TI BAZMA (Ciampea, Kab-Bogor) <a href="https://bit.ly/lokasismktibazma" target="_blank" class="bg-warning text-white"> bit.ly/lokasismktibazma</a> <i>(mengadakan akomodasi dan transportasi secara pribadi).</i>
                                             </p>
-                                            <select class="form-control" name="rangkaian_tes" id="">
+                                            <select class="form-control" name="rangkaian_tes" id="rangkaian_tes">
                                                 <option value="" disabled selected>Pilih</option>
                                                 <option value="1">Online</option>
                                                 <option value="0">Offline</option>
@@ -1120,7 +1119,7 @@
         </div>
     </section>
 
-    <!-- Contact section-->
+    <!-- Contact section
     <section class="bg-light py-6">
         <div class="container px-5 my-5 py-5">
             <div class="text-center mb-5">
@@ -1130,7 +1129,7 @@
                 <a class="btn btn-success btn-lg px-4 me-sm-3" href="https://wa.me/628111144339" target="_blank">WhatsApp</a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer-->
     <footer class="py-5 bg-dark">
