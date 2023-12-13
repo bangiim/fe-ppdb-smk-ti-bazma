@@ -176,12 +176,8 @@ function validateFileUpload(event) {
         }
 
         const uploadedFile = event.target.files[0];
-        console.log('Uploaded File:', uploadedFile);
+        // console.log('Uploaded File:', uploadedFile);
 
-        // const fileNameElement = document.getElementById(`file-name-${fieldName}`);
-        // if (fileNameElement) {
-        //     fileNameElement.textContent = uploadedFile.name;
-        // }
     } else {
         if (errorElement) {
             errorElement.innerHTML = `<small><i>${fieldName.replace('_', ' ')} must be uploaded.</i></small>`;
